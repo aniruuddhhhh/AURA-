@@ -22,7 +22,7 @@ SQL_DB_PATH = "aura_health.db"
 VECTOR_DB_DIR = "./aura_vector_db_hf"
 EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAtZX_WXGcv7EY1lp35i0Dchm8r4GbSe-4")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "SET_YOUR_API")
 GEMINI_MODEL = "gemini-2.5-flash"  # Latest and most powerful - Dec 2024
 
 import sys

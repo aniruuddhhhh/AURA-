@@ -14,7 +14,7 @@ GOOGLE_TRANSLATE_AVAILABLE = False
 
 try:
     import google.generativeai as genai
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAtZX_WXGcv7EY1lp35i0Dchm8r4GbSe-4")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "SET_YOUR_API")
     genai.configure(api_key=GEMINI_API_KEY)
     GEMINI_AVAILABLE = True
 except:
